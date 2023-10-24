@@ -486,6 +486,7 @@ function plusCheck(message)
     }
 }
 
+//Replace process.env.TOKEN with your own bot's token
 client.login(process.env.TOKEN);
 
 function IsNumber(char) {
